@@ -1,0 +1,8 @@
+21:02:27.191 ERROR demo.ConsoleLogging -Error Message Logged
+21:02:27.196 FATAL demo.ConsoleLogging -Fatal message Logged
+21:03:13.560 FATAL demo.ConsoleLogging -Fatal message Logged
+21:05:34.377 TRACE demo2.FileLogging -Trace Message logged
+21:05:34.381 DEBUG demo2.FileLogging -Debug Message Logged
+21:05:34.382 INFO  demo2.FileLogging -Info Message logged
+21:05:34.382 ERROR demo2.FileLogging -Error Message Logged
+21:05:34.382 FATAL demo2.FileLogging -Fatal message Logged

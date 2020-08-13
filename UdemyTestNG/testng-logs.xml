@@ -1,0 +1,7 @@
+<suite name="smoke testing">
+	<test name="test 1">
+		<classes>
+			<class name="testclasses.TestNG_ReportsAndLogs"></class>
+		</classes>
+	</test>
+</suite>

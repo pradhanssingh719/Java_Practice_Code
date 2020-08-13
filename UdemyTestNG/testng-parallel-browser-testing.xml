@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Paraller Browser" parallel="tests">
+	<test name="firefox browser">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="testclasses.TestNG_ParallerBrowserTesting"></class>
+		</classes>
+	</test>
+	<test name="chrome browser">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="testclasses.TestNG_ParallerBrowserTesting"></class>
+		</classes>
+	</test>
+</suite>

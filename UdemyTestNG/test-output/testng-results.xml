@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parameter suite" duration-ms="21" started-at="2020-06-21T17:07:02Z" finished-at="2020-06-21T17:07:02Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="21" started-at="2020-06-21T17:07:02Z" finished-at="2020-06-21T17:07:02Z">
+      <class name="testclasses.TestNG_TestParameters">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestNG_TestParameters@2ef5e5e3]" name="setUp" is-config="true" duration-ms="9" started-at="2020-06-21T17:07:02Z" finished-at="2020-06-21T17:07:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:testclasses.TestNG_TestParameters@2ef5e5e3]" name="testMethod1" duration-ms="3" started-at="2020-06-21T17:07:02Z" finished-at="2020-06-21T17:07:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- testclasses.TestNG_TestParameters -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Parameter suite -->
+</testng-results>

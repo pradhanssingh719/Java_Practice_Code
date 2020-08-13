@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NewTour Automation]">
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="com.nt.listener.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="New Tour test(failed)">
+    <classes>
+      <class name="com.nt.test.FlightBookingTest">
+        <methods>
+          <include name="delAddressDetails" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tesrDown"/>
+        </methods>
+      </class> <!-- com.nt.test.FlightBookingTest -->
+    </classes>
+  </test> <!-- New Tour test(failed) -->
+</suite> <!-- Failed suite [NewTour Automation] -->

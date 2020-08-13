@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NewTour flights booking test suite">
+	<test name="NewTour test cases">
+		<classes>
+			<class name="com.nt.test.LoginPageTest"></class>
+			<class name="com.nt.test.FlightsPageTest"></class>
+			<class name="com.nt.test.BillingPageTest"></class>
+		</classes>
+	</test>
+</suite>

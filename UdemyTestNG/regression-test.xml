@@ -1,0 +1,16 @@
+<!--  <?xml version="1.0" encoding="UTF-8"?>   -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Complete TestResult" >   <!-- name can be anything -->
+	<test name="Regression Test">     <!-- here also name can be anything -->
+		<classes>
+			<class name="regressionsuite.TestNG_TestClass1"></class>
+		</classes>
+	</test> 
+	<test name="Smoke Test">    
+		<classes>
+			<class name="regressionsuite.TestNG_TestClass2"></class>
+		</classes>
+	</test> 
+</suite> 

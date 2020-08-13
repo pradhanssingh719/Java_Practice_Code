@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NewTour flights booking test suite">
+	<test name="NewTour test cases">
+		<classes>
+			<class name="com.nt.test.LoginPageTest"></class> <!-- in sanity we check whether our essential functionality is working on not -->
+		</classes>
+	</test>
+</suite>

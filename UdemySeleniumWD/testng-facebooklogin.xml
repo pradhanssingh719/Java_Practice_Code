@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Facebook Application">
+	<test name="login page test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="extentreportse.FacebookLogin"></class>
+		</classes>
+	</test>
+</suite>

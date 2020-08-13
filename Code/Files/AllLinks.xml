@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- we can run our tests tag parallelly on two different browser by using parallel="tests"-->
+<suite name="all clickable liks">
+	<test name="chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="selenium.AllLinks"></class>
+		</classes>
+	</test>
+	
+	<!-- <test name="firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="selenium.AllLinks"></class>
+		</classes>
+	</test> -->
+	
+</suite>
